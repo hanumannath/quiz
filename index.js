@@ -110,8 +110,8 @@ function jumpnextquestion() {
         document.getElementById('question').innerHTML = "- A private member of a class is visible to";
         document.getElementById('opt1').innerHTML = "every where";
         document.getElementById('opt2').innerHTML = "in sub class";
-        document.getElementById('opt3').innerHTML = "members to same package";
-        document.getElementById('opt4').innerHTML = "only members of same class";
+        document.getElementById('opt3').innerHTML = "same package";
+        document.getElementById('opt4').innerHTML = "same class";
     }
     else if (sr == 9) {
         document.getElementById('question').innerHTML = "- Which keyword is used to inherit a class or abstract class is";
